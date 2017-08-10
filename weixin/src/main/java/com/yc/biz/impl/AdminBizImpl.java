@@ -13,7 +13,6 @@ import com.yc.utils.Encrypt;
 
 
 @Service
-@Transactional
 public class AdminBizImpl implements AdminBiz{
 	@Resource(name="baseDao")
 	private BaseDao baseDao;

@@ -10,8 +10,8 @@
 %>
 <base href="<%= basePath %>"/>
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-<link rel="stylesheet" type="text/css" href="back/manager/easyui15/themes/default/easyui.css"/>
-<link rel="stylesheet" type="text/css" href="back/manager/easyui15/themes/icon.css"/>
-<script type="text/javascript" src="back/manager/easyui15/jquery.min.js"></script>
-<script type="text/javascript" src="back/manager/easyui15/jquery.easyui.min.js"></script>
-<script type="text/javascript" src="back/manager/easyui15/jquery.edatagrid.js"></script>
+<link rel="stylesheet" type="text/css" href="easyui15/themes/default/easyui.css"/>
+<link rel="stylesheet" type="text/css" href="easyui15/themes/icon.css"/>
+<script type="text/javascript" src="easyui15/jquery.min.js"></script>
+<script type="text/javascript" src="easyui15/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="easyui15/jquery.edatagrid.js"></script>

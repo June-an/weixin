@@ -13,7 +13,6 @@ create table admin(
    typeid int
 );
 select * from admin;
-update admin set apwd='6f9b0a55df8ac28564cb9f63a10be8af6ab3f7c2'
 
 --创建管理员类型表
 create table admintype(

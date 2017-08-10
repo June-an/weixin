@@ -39,10 +39,13 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>springmvc</servlet-name>
-    <url-pattern>/</url-pattern>
+    <url-pattern>*.action</url-pattern>
   </servlet-mapping>
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+   <listener>
+    <listener-class>com.yc.web.listeners.InitListener</listener-class>
   </listener>
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>

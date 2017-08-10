@@ -11,11 +11,12 @@
 		select count(1) from admin where aname=#{aname} and apwd=#{apwd}
 	</select>
 
-	<!-- 根据用户名和密码查询管理员(登录)-->
+	<!-- 根据用户名和密码查询管理员(登录)  分类型-->
 	<select id="getAdminByLogin" resultType="Admin" parameterType="Admin">
 		select 
 			aid ,aname,apwd,telephone,regtime,lastupdatetime,typeid
-		from admin where aname=#{aname} and apwd=#{apwd}
+		from admin
+			where aname=#{aname} and apwd=#{apwd}
 	</select>
 	
 </mapper>
